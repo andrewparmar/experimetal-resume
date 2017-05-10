@@ -44,3 +44,30 @@ var projects = {
 
 
 
+var formattedName = HTMLheaderName.replace('%data%',"Andrew Parmar");
+var formattedRole = HTMLheaderRole.replace('%data%',"Web Developer");	
+
+$("#header").append(formattedName);
+$("#header").append(formattedRole);
+// console.log(bio.skills[0])
+
+if(bio.skills.length > 0) {
+	$("#header").append(HTMLskillsStart);
+
+	var formattedSkills = HTMLskills.replace('%data%',bio.skills[0]);
+	$("#skills").append(formattedSkills)
+
+
+};
+
+for (job in work.jobs) {
+	$("#workExperience").append(HTMLworkStart);
+
+	var formattedEmployer = HTMLworkEmployer.replace('%data%',work.jobs[job].Company);
+	var formattedTitle = HTMLworkTitle.replace('%data%',work.jobs[job].Title);
+	var formattedEmployerTitle = formattedEmployer + formattedTitle;
+
+	$(".work-entry:last").append(formattedEmployerTitle);
+
+
+}
