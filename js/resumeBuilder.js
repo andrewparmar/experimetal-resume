@@ -23,6 +23,7 @@ var work = {
 	
 };
 
+
 var education = {
 	"schools": {
 		"name": "San Jose State University",
