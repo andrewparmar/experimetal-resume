@@ -1,6 +1,18 @@
 $(document).ready(function(){
     $("#newThread").click(function () {
-        $(".work-exp-cont").css("color","red");
+        $(".work-exp-cont").slideToggle(700); //hide(); //css("color","red");
+        // $(".icon-bg").toggleClass("active");
+        // $(".container").toggleClass("active");
+        // $(".box-upload").toggleClass("active");
+        // $(".box-caption").toggleClass("active");
+        // $(".box-tags").toggleClass("active");
+        // $(".private").toggleClass("active");
+        // $(".set-time-limit").toggleClass("active");
+        // $(".button").toggleClass("active");
+    });
+
+    $("#newThread2").click(function () {
+        $(".project-cont").slideToggle(700); //hide(); //css("color","red");
         // $(".icon-bg").toggleClass("active");
         // $(".container").toggleClass("active");
         // $(".box-upload").toggleClass("active");
