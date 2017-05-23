@@ -287,10 +287,19 @@ h2 {
   color: #B13533;
 }
 
-.work-exp-cont {
+.remove-padding {
   padding: 0px;
 }
 
-.project-cont {
-  padding: 0px;
+
+body {
+  background-color:#F2F2F2;
+}
+
+.start-hidden {
+  display: none;
+}
+
+html{
+   height:101%;
 }

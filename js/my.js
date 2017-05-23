@@ -1,6 +1,7 @@
 $(document).ready(function(){
-    $("#newThread").click(function () {
-        $(".work-exp-cont").slideToggle(700); //hide(); //css("color","red");
+    // $("#newThread").click(function () {
+    $(".myBox1").click(function () {
+        $(".work-exp-cont").slideToggle(600); //hide(); //css("color","red");
         // $(".icon-bg").toggleClass("active");
         // $(".container").toggleClass("active");
         // $(".box-upload").toggleClass("active");
@@ -11,8 +12,44 @@ $(document).ready(function(){
         // $(".button").toggleClass("active");
     });
 
-    $("#newThread2").click(function () {
-        $(".project-cont").slideToggle(700); //hide(); //css("color","red");
+    $(".myBox2").click(function () {
+        $(".edu-cont").slideToggle(500); //hide(); //css("color","red");
+        // $(".icon-bg").toggleClass("active");
+        // $(".container").toggleClass("active");
+        // $(".box-upload").toggleClass("active");
+        // $(".box-caption").toggleClass("active");
+        // $(".box-tags").toggleClass("active");
+        // $(".private").toggleClass("active");
+        // $(".set-time-limit").toggleClass("active");
+        // $(".button").toggleClass("active");
+    });
+
+    $(".myBox3").click(function () {
+        $(".project-cont").slideToggle(500); //hide(); //css("color","red");
+        // $(".icon-bg").toggleClass("active");
+        // $(".container").toggleClass("active");
+        // $(".box-upload").toggleClass("active");
+        // $(".box-caption").toggleClass("active");
+        // $(".box-tags").toggleClass("active");
+        // $(".private").toggleClass("active");
+        // $(".set-time-limit").toggleClass("active");
+        // $(".button").toggleClass("active");
+    });
+
+    $(".myBox4").click(function () {
+        $(".skills-cont").slideToggle(500); //hide(); //css("color","red");
+        // $(".icon-bg").toggleClass("active");
+        // $(".container").toggleClass("active");
+        // $(".box-upload").toggleClass("active");
+        // $(".box-caption").toggleClass("active");
+        // $(".box-tags").toggleClass("active");
+        // $(".private").toggleClass("active");
+        // $(".set-time-limit").toggleClass("active");
+        // $(".button").toggleClass("active");
+    });
+
+    $(".myBox5").click(function () {
+        $(".awards-cont").slideToggle(500); //hide(); //css("color","red");
         // $(".icon-bg").toggleClass("active");
         // $(".container").toggleClass("active");
         // $(".box-upload").toggleClass("active");
