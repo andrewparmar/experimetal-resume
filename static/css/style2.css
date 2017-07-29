@@ -285,6 +285,7 @@ h2 {
 
 .sub-section {
   color: #B13533;
+  cursor: pointer;
 }
 
 .remove-padding {
