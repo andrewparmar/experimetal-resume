@@ -1,7 +1,8 @@
 $(document).ready(function(){
     // $("#newThread").click(function () {
-    $(".myBox1").click(function () {
-        $(".work-exp-cont").slideToggle(600); //hide(); //css("color","red");
+    $(".myBox1").click(function(e) {
+        e.preventDefault();
+        $(".work-exp-cont").slideToggle(200); //hide(); //css("color","red");
         // $(".icon-bg").toggleClass("active");
         // $(".container").toggleClass("active");
         // $(".box-upload").toggleClass("active");
@@ -10,9 +11,11 @@ $(document).ready(function(){
         // $(".private").toggleClass("active");
         // $(".set-time-limit").toggleClass("active");
         // $(".button").toggleClass("active");
+        return false;
     });
 
-    $(".myBox2").click(function () {
+    $(".myBox2").click(function(e) {
+        e.preventDefault();
         $(".edu-cont").slideToggle(500); //hide(); //css("color","red");
         // $(".icon-bg").toggleClass("active");
         // $(".container").toggleClass("active");
@@ -22,9 +25,11 @@ $(document).ready(function(){
         // $(".private").toggleClass("active");
         // $(".set-time-limit").toggleClass("active");
         // $(".button").toggleClass("active");
+        return false;
     });
 
-    $(".myBox3").click(function () {
+    $(".myBox3").click(function(e) {
+        e.preventDefault();
         $(".project-cont").slideToggle(500); //hide(); //css("color","red");
         // $(".icon-bg").toggleClass("active");
         // $(".container").toggleClass("active");
@@ -34,9 +39,11 @@ $(document).ready(function(){
         // $(".private").toggleClass("active");
         // $(".set-time-limit").toggleClass("active");
         // $(".button").toggleClass("active");
+        return false;
     });
 
-    $(".myBox4").click(function () {
+    $(".myBox4").click(function(e) {
+        e.preventDefault();
         $(".skills-cont").slideToggle(500); //hide(); //css("color","red");
         // $(".icon-bg").toggleClass("active");
         // $(".container").toggleClass("active");
@@ -46,9 +53,11 @@ $(document).ready(function(){
         // $(".private").toggleClass("active");
         // $(".set-time-limit").toggleClass("active");
         // $(".button").toggleClass("active");
+        return false;
     });
 
-    $(".myBox5").click(function () {
+    $(".myBox5").click(function(e) {
+        e.preventDefault();
         $(".awards-cont").slideToggle(500); //hide(); //css("color","red");
         // $(".icon-bg").toggleClass("active");
         // $(".container").toggleClass("active");
@@ -58,9 +67,11 @@ $(document).ready(function(){
         // $(".private").toggleClass("active");
         // $(".set-time-limit").toggleClass("active");
         // $(".button").toggleClass("active");
+        return false;
     });
 
-    // $(".button").click(function () {
+    // $(".button").click(function(e) {
+        // e.preventDefault();
     //     $(".button-overlay").toggleClass("active");
     // });
 
